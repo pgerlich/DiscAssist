@@ -2,6 +2,7 @@ package com.discassist;
 
 import android.app.AlertDialog;
 import android.app.ProgressDialog;
+import android.app.SearchManager;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
@@ -13,9 +14,15 @@ import android.location.LocationManager;
 import android.os.AsyncTask;
 import android.support.v4.app.FragmentActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
+import android.view.Menu;
+import android.view.MenuInflater;
+import android.view.MenuItem;
+import android.widget.SearchView;
 import android.widget.Toast;
 
+import com.google.android.gms.maps.CameraUpdate;
 import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.SupportMapFragment;
@@ -34,16 +41,37 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 
-public class MapsActivity extends FragmentActivity implements GoogleMap.OnMarkerClickListener {
+public class MapsActivity extends AppCompatActivity implements GoogleMap.OnMarkerClickListener {
 
     private GoogleMap mMap; // Might be null if Google Play services APK is not available.
+
+    //Current location ( constantly updated)
     Location myLocation;
+
+    //Progress view / loading spinnger thing
     ProgressDialog mProgressDialog;
+
+    //Current course information as hash maps/json
     ArrayList<HashMap<String, String>> courses;
-    List<Marker> courseMarkers = new ArrayList<Marker>(); //Markers for COURSES
-    List<Marker> currentCoursesMarkers = new ArrayList<Marker>(); //Markers for current course
     JSONArray jsonarray;
+
+    //Course markers for all courses
+    List<Marker> courseMarkers = new ArrayList<Marker>(); //Markers for COURSES
+
+    //Course marks for holes and tees
+    List<Marker> currentCourseHoles = new ArrayList<Marker>(); //Markers for current course
+    List<Marker> currentCoursesRegTees = new ArrayList<Marker>(); //Markers for current course
+    List<Marker> currentCoursesProTees = new ArrayList<Marker>(); //Markers for current course
+
+    //Whether a course is currently expanded
     boolean courseShown = false;
+
+    //Whether regular tees are being shown
+    boolean regTeesShown = false;
+
+    //Whether pro tees are being shown
+    boolean proTeesShown = false;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -62,6 +90,68 @@ public class MapsActivity extends FragmentActivity implements GoogleMap.OnMarker
         mProgressDialog.show();
 
     }
+
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        // Inflate the menu items for use in the action bar
+        MenuInflater inflater = getMenuInflater();
+        inflater.inflate(R.menu.menu_maps, menu);
+
+//        // Associate searchable configuration with the SearchView
+//        SearchManager searchManager = (SearchManager) getSystemService(Context.SEARCH_SERVICE);
+//        final SearchView searchView = (SearchView) menu.findItem(R.id.search).getActionView();
+//        searchView.setSearchableInfo(searchManager.getSearchableInfo(getComponentName()));
+//
+//        searchView.setQueryHint("Search for a bar");
+//        searchView.setIconifiedByDefault(false);
+//
+//
+//        searchView.setOnQueryTextListener(new SearchView.OnQueryTextListener() {
+//            @Override
+//            public boolean onQueryTextSubmit(String s) {
+//                for (Marker marker : markers) {
+//                    if(marker.getTitle().toLowerCase().contains(s)){
+//                        Toast.makeText(getApplicationContext(), "Found bar: " + marker.getTitle(), Toast.LENGTH_SHORT).show();
+//                        float zoom = 18;
+//                        CameraUpdate update = CameraUpdateFactory.newLatLngZoom(marker.getPosition(), zoom);
+//                        mMap.animateCamera(update);
+//                        marker.showInfoWindow();
+//                    }
+//                    else{
+//                        Toast.makeText(getApplicationContext(), "Bar not found!", Toast.LENGTH_SHORT).show();
+//                    }
+//                }
+//                searchView.clearFocus();
+//                // Zoom to bar
+//                return true;
+//            }
+//
+//            @Override
+//            public boolean onQueryTextChange(String s) {
+//                return false;
+//            }
+//
+//        });
+
+        return true;
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        // Handle presses on the action bar items
+        switch (item.getItemId()) {
+            case R.id.action_settings:
+//                Intent i = new Intent(getApplicationContext(), MainActivity.class);
+//                String test = addDistances(jsonarray);
+//                i.putExtra("jsonArray", test);
+//                startActivity(i);
+                return true;
+            default:
+                return super.onOptionsItemSelected(item);
+        }
+    }
+
 
     @Override
     protected void onResume() {
@@ -170,8 +260,6 @@ public class MapsActivity extends FragmentActivity implements GoogleMap.OnMarker
                     case DialogInterface.BUTTON_NEGATIVE:
                         dialog.dismiss();
 
-                        courseShown = true;
-
                         //For the sake of convenience, only display one course at a time.. Easy update though
                         //TODO: If we want to be able to show multiple courses, have an arraylist of the currentCourse markers (arraylist of arraylists.. Easy fix, just no real purpose to it that I see)
                         hideCourse();
@@ -185,6 +273,12 @@ public class MapsActivity extends FragmentActivity implements GoogleMap.OnMarker
 
                         showHoles(courseMarkers.indexOf(marker));
                         showRegularTees(courseMarkers.indexOf(marker));
+
+
+                        courseShown = true;
+                        regTeesShown = true;
+                        proTeesShown = false;
+
                         break;
                 }
             }
@@ -204,9 +298,11 @@ public class MapsActivity extends FragmentActivity implements GoogleMap.OnMarker
                     case DialogInterface.BUTTON_NEGATIVE:
                         dialog.dismiss();
 
-                        courseShown = false;
-
                         hideCourse();
+
+                        courseShown = false;
+                        regTeesShown = false;
+                        proTeesShown = false;
 
                         break;
                 }
@@ -239,9 +335,45 @@ public class MapsActivity extends FragmentActivity implements GoogleMap.OnMarker
         return false;
     }
 
+    /**
+     * Hide the full course
+     */
     private void hideCourse(){
-        for(int i = 0; i < currentCoursesMarkers.size(); i++ ) {
-            currentCoursesMarkers.get(i).remove();
+        hideCourseHoles();
+        hideCourseRegularTees();
+        hideCourseProTees();
+    }
+
+    /**
+     * Hides the courses holes/baskets
+     */
+    private void hideCourseHoles(){
+        if ( courseShown ) {
+            for (int i = 0; i < currentCourseHoles.size(); i++) {
+                currentCourseHoles.get(i).remove();
+            }
+        }
+    }
+
+    /**
+     * Hides the courses regular tees
+     */
+    private void hideCourseRegularTees(){
+        if ( regTeesShown ) {
+            for (int i = 0; i < currentCoursesRegTees.size(); i++) {
+                currentCoursesRegTees.get(i).remove();
+            }
+        }
+    }
+
+    /**
+     * Hides the courses pro tees
+     */
+    private void hideCourseProTees(){
+        if ( proTeesShown ) {
+            for (int i = 0; i < currentCoursesProTees.size(); i++) {
+                currentCoursesProTees.get(i).remove();
+            }
         }
     }
 
@@ -270,7 +402,7 @@ public class MapsActivity extends FragmentActivity implements GoogleMap.OnMarker
                         .title(name)
                         .icon(BitmapDescriptorFactory.fromBitmap(img)));
 
-                currentCoursesMarkers.add((m));
+                currentCourseHoles.add((m));
 
 
             }
@@ -308,7 +440,7 @@ public class MapsActivity extends FragmentActivity implements GoogleMap.OnMarker
                         //.rotation(-1) TODO: Setup orientation as mentioned above..
                         .icon(BitmapDescriptorFactory.fromBitmap(img)));
 
-                currentCoursesMarkers.add((m));
+                currentCoursesRegTees.add((m));
 
 
             }
@@ -346,7 +478,7 @@ public class MapsActivity extends FragmentActivity implements GoogleMap.OnMarker
                                 //.rotation(-1) TODO: Setup orientation as mentioned above..
                         .icon(BitmapDescriptorFactory.fromBitmap(img)));
 
-                currentCoursesMarkers.add((m));
+                currentCoursesProTees.add((m));
 
 
             }

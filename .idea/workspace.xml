@@ -18,48 +18,48 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6e89731b-47e8-405d-beb5-f3554b688fa8" name="Default" comment="">
-      <change type="DELETED" beforePath="C:\319\discassist\DiscAssist\app\src\androidTest\java\com\discassist\ApplicationTest.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\319\discassist\DiscAssist\app\src\main\java\com\discassist\MapsActivity.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\319\discassist\DiscAssist\gradle\wrapper\gradle-wrapper.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\319\discassist\DiscAssist\app\src\main\res\layout\activity_maps.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\319\discassist\DiscAssist\app\src\main\res\prelim_chains.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\319\discassist\DiscAssist\.idea\scopes\scope_settings.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\319\discassist\DiscAssist\app\src\release\res\values\google_maps_api.xml" afterPath="" />
       <change type="DELETED" beforePath="C:\319\discassist\DiscAssist\app\src\main\res\values\styles.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\319\discassist\DiscAssist\.idea\copyright\profiles_settings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\319\discassist\DiscAssist\app\src\main\res\mipmap-xxhdpi\ic_launcher.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\319\discassist\DiscAssist\.idea\.name" afterPath="" />
-      <change type="DELETED" beforePath="C:\319\discassist\DiscAssist\app\src\main\res\mipmap-mdpi\ic_launcher.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\319\discassist\DiscAssist\app\src\main\prelim_chains.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\319\discassist\DiscAssist\app\src\main\res\mipmap-hdpi\ic_launcher.png" afterPath="" />
       <change type="DELETED" beforePath="C:\319\discassist\DiscAssist\app\build.gradle" afterPath="" />
       <change type="DELETED" beforePath="C:\319\discassist\DiscAssist\build.gradle" afterPath="" />
-      <change type="DELETED" beforePath="C:\319\discassist\DiscAssist\.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="C:\319\discassist\DiscAssist\app\src\main\res\layout\activity_maps.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\319\discassist\DiscAssist\.idea\misc.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\319\discassist\DiscAssist\app\src\main\res\mipmap-hdpi\ic_launcher.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\319\discassist\DiscAssist\gradle\wrapper\gradle-wrapper.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\319\discassist\DiscAssist\DiscAssist.iml" afterPath="" />
-      <change type="DELETED" beforePath="C:\319\discassist\DiscAssist\app\src\main\java\com\discassist\MapsActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\319\discassist\DiscAssist\app\src\debug\res\values\google_maps_api.xml" afterPath="" />
       <change type="DELETED" beforePath="C:\319\discassist\DiscAssist\gradle\wrapper\gradle-wrapper.properties" afterPath="" />
-      <change type="DELETED" beforePath="C:\319\discassist\DiscAssist\app\src\main\prelim_chains.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\319\discassist\DiscAssist\gradlew.bat" afterPath="" />
-      <change type="DELETED" beforePath="C:\319\discassist\DiscAssist\settings.gradle" afterPath="" />
-      <change type="DELETED" beforePath="C:\319\discassist\DiscAssist\.idea\modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\319\discassist\DiscAssist\app\src\main\res\mipmap-xhdpi\ic_launcher.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\319\discassist\DiscAssist\app\src\main\res\prelim_chains.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\319\discassist\DiscAssist\.idea\vcs.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\319\discassist\DiscAssist\.idea\gradle.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\319\discassist\DiscAssist\app\app.iml" afterPath="" />
-      <change type="DELETED" beforePath="C:\319\discassist\DiscAssist\app\src\main\res\values\strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\319\discassist\DiscAssist\.idea\compiler.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\319\discassist\DiscAssist\.idea\.name" afterPath="" />
       <change type="DELETED" beforePath="C:\319\discassist\DiscAssist\app\.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="C:\319\discassist\DiscAssist\.idea\encodings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\319\discassist\DiscAssist\app\src\main\AndroidManifest.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\319\discassist\DiscAssist\app\src\release\res\values\google_maps_api.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\319\discassist\DiscAssist\.idea\scopes\scope_settings.xml" afterPath="" />
       <change type="DELETED" beforePath="C:\319\discassist\DiscAssist\gradle.properties" afterPath="" />
-      <change type="DELETED" beforePath="C:\319\discassist\DiscAssist\app\proguard-rules.pro" afterPath="" />
+      <change type="DELETED" beforePath="C:\319\discassist\DiscAssist\app\src\androidTest\java\com\discassist\ApplicationTest.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\319\discassist\DiscAssist\.idea\compiler.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\319\discassist\DiscAssist\.idea\misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\319\discassist\DiscAssist\app\src\main\res\mipmap-xhdpi\ic_launcher.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\319\discassist\DiscAssist\app\src\main\res\values\strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\319\discassist\DiscAssist\app\src\main\res\mipmap-xxhdpi\ic_launcher.png" afterPath="" />
       <change type="DELETED" beforePath="C:\319\discassist\DiscAssist\gradlew" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.name" afterPath="$PROJECT_DIR$/.idea/.name" />
+      <change type="DELETED" beforePath="C:\319\discassist\DiscAssist\app\src\main\AndroidManifest.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\319\discassist\DiscAssist\settings.gradle" afterPath="" />
+      <change type="DELETED" beforePath="C:\319\discassist\DiscAssist\.idea\vcs.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\319\discassist\DiscAssist\gradlew.bat" afterPath="" />
+      <change type="DELETED" beforePath="C:\319\discassist\DiscAssist\.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="C:\319\discassist\DiscAssist\app\proguard-rules.pro" afterPath="" />
+      <change type="DELETED" beforePath="C:\319\discassist\DiscAssist\app\src\main\res\mipmap-mdpi\ic_launcher.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\319\discassist\DiscAssist\.idea\copyright\profiles_settings.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\319\discassist\DiscAssist\.idea\modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\319\discassist\DiscAssist\app\app.iml" afterPath="" />
+      <change type="DELETED" beforePath="C:\319\discassist\DiscAssist\DiscAssist.iml" afterPath="" />
+      <change type="DELETED" beforePath="C:\319\discassist\DiscAssist\app\src\debug\res\values\google_maps_api.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\319\discassist\DiscAssist\.idea\gradle.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\319\discassist\DiscAssist\.idea\encodings.xml" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.name" afterPath="$PROJECT_DIR$/.idea/.name" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
     </list>
     <ignored path="discassist.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -82,28 +82,27 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="MapsActivity.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="MapsActivity.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/discassist/MapsActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.92673993" vertical-offset="2025" max-vertical-offset="4488">
-              <caret line="206" column="21" selection-start-line="206" selection-start-column="21" selection-end-line="206" selection-end-column="21" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="2295" max-vertical-offset="7837">
+              <caret line="194" column="0" selection-start-line="194" selection-start-column="0" selection-end-line="194" selection-end-column="0" />
               <folding>
-                <element signature="e#1531#1539#0" expanded="true" />
-                <element signature="e#2793#2966#0" expanded="true" />
-                <element signature="e#2959#2960#0" expanded="true" />
-                <element signature="method#setUpMapIfNeeded#0;class#MapsActivity#0" expanded="false" />
-                <element signature="method#zoomToCurrentLocation#0;class#MapsActivity#0" expanded="false" />
-                <element signature="e#6399#7975#0" expanded="true" />
-                <element signature="e#7964#7965#0" expanded="true" />
-                <element signature="e#8103#8694#0" expanded="true" />
-                <element signature="e#8683#8684#0" expanded="true" />
-                <element signature="method#showProTees#0;class#MapsActivity#0" expanded="false" />
+                <element signature="e#1995#2003#0" expanded="true" />
+                <element signature="e#2119#2127#0" expanded="true" />
+                <element signature="e#2214#2222#0" expanded="true" />
+                <element signature="e#2309#2317#0" expanded="true" />
+                <element signature="e#6094#6267#0" expanded="true" />
+                <element signature="e#6260#6261#0" expanded="true" />
+                <element signature="e#9700#11369#0" expanded="true" />
+                <element signature="e#11358#11359#0" expanded="true" />
+                <element signature="e#11497#12180#0" expanded="true" />
+                <element signature="e#12169#12170#0" expanded="true" />
                 <element signature="class#getCourseInformation#0;class#MapsActivity#0" expanded="false" />
-                <element signature="e#14445#14446#0" expanded="true" />
-                <element signature="e#14489#14490#0" expanded="true" />
                 <element signature="method#doInBackground#0;class#getCourseInformation#0;class#MapsActivity#0" expanded="false" />
-                <element signature="e#17080#17860#0" expanded="true" />
-                <element signature="e#17839#17840#0" expanded="true" />
+                <element signature="e#19324#19340#0" expanded="true" />
+                <element signature="e#21393#22173#0" expanded="true" />
+                <element signature="e#22152#22153#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -112,8 +111,36 @@
       <file leaf-file-name="AndroidManifest.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="221" max-vertical-offset="765">
-              <caret line="18" column="40" selection-start-line="18" selection-start-column="40" selection-end-line="18" selection-end-column="40" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="952">
+              <caret line="29" column="46" selection-start-line="29" selection-start-column="46" selection-end-line="29" selection-end-column="46" />
+              <folding>
+                <element signature="e#891#909#0" expanded="true" />
+                <element signature="e#1055#1094#0" expanded="true" />
+                <element signature="e#1205#1230#0" expanded="true" />
+                <element signature="e#1927#1963#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="menu_course_view.xml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/menu/menu_course_view.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.45945945" vertical-offset="0" max-vertical-offset="518">
+              <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+              <folding>
+                <element signature="e#230#246#0" expanded="true" />
+                <element signature="e#470#495#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="strings.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-3.4" vertical-offset="0" max-vertical-offset="255">
+              <caret line="5" column="37" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="37" />
               <folding />
             </state>
           </provider>
@@ -1280,7 +1307,7 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="4294184676645" />
+        <entry key="$PROJECT_DIR$" value="4294649601765" />
       </map>
     </option>
     <option name="projectBuildClasspath">
@@ -1547,16 +1574,20 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/app/src/main/java/com/discassist/JSONFunctions.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_course_view.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/menu/menu_maps.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/discassist/MapsActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/menu/menu_course_view.xml" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
+    <option name="y" value="-8" />
     <option name="width" value="1382" />
-    <option name="height" value="728" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -1584,34 +1615,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DiscAssist" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DiscAssist" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -1764,6 +1767,34 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DiscAssist" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DiscAssist" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
       <pane id="Scope" />
       <pane id="AndroidView">
         <subPane>
@@ -1787,7 +1818,7 @@
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="values" />
+              <option name="myItemId" value="xml" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderTypeNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1819,7 +1850,7 @@
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="drawable" />
+              <option name="myItemId" value="layout" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderTypeNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1835,6 +1866,24 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="java" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DiscAssist" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="discassist" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -1873,8 +1922,17 @@
     <property name="OverrideImplement.overriding.sorted" value="false" />
   </component>
   <component name="RecentsManager">
+    <key name="android.template.packageName">
+      <recent name="com.discassist" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\319\discassist\app\src\main\res" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\319\discassist\app\src\main\res\drawable" />
+    </key>
+    <key name="android.template.parentActivityClass">
+      <recent name="" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.discassist" />
@@ -2051,36 +2109,37 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="0" width="1382" height="728" extended-state="0" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32924694" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32879046" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32924694" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32879046" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.45008758" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.069846675" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24962178" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24962178" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Memory Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39929947" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -2105,11 +2164,47 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/discassist/MapsActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="5746">
+          <caret line="206" column="0" selection-start-line="206" selection-start-column="0" selection-end-line="206" selection-end-column="0" />
+          <folding>
+            <element signature="e#1995#2003#0" expanded="true" />
+            <element signature="e#2119#2127#0" expanded="true" />
+            <element signature="e#2214#2222#0" expanded="true" />
+            <element signature="e#2309#2317#0" expanded="true" />
+            <element signature="e#6094#6267#0" expanded="true" />
+            <element signature="e#6260#6261#0" expanded="true" />
+            <element signature="e#9700#11369#0" expanded="true" />
+            <element signature="e#11358#11359#0" expanded="true" />
+            <element signature="e#11497#12180#0" expanded="true" />
+            <element signature="e#12169#12170#0" expanded="true" />
+            <element signature="class#getCourseInformation#0;class#MapsActivity#0" expanded="false" />
+            <element signature="method#doInBackground#0;class#getCourseInformation#0;class#MapsActivity#0" expanded="false" />
+            <element signature="e#19324#19340#0" expanded="true" />
+            <element signature="e#21393#22173#0" expanded="true" />
+            <element signature="e#22152#22153#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="901">
+          <caret line="18" column="40" selection-start-line="18" selection-start-column="40" selection-end-line="18" selection-end-column="40" />
+          <folding>
+            <element signature="e#891#909#0" expanded="true" />
+            <element signature="e#1055#1094#0" expanded="true" />
+            <element signature="e#1205#1230#0" expanded="true" />
+            <element signature="e#1927#1963#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$USER_HOME$/AppData/Local/Android/sdk/sources/android-22/com/android/internal/os/ZygoteInit.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5492064" vertical-offset="12441" max-vertical-offset="14824">
           <caret line="793" column="13" selection-start-line="793" selection-start-column="13" selection-end-line="793" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2135,7 +2230,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.15837938" vertical-offset="171" max-vertical-offset="1683">
           <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2147,54 +2241,114 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.12289157" vertical-offset="0" max-vertical-offset="415">
-          <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_maps.xml">
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
-      </provider>
       <provider editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="170">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/discassist/CourseViewActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="221" max-vertical-offset="765">
-          <caret line="18" column="40" selection-start-line="18" selection-start-column="40" selection-end-line="18" selection-end-column="40" />
+        <state vertical-scroll-proportion="0.6967213" vertical-offset="0" max-vertical-offset="714">
+          <caret line="18" column="46" selection-start-line="18" selection-start-column="46" selection-end-line="18" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_course_view.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.30088496" vertical-offset="0" max-vertical-offset="339">
+          <caret line="6" column="30" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/build/intermediates/manifests/full/debug/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.8" vertical-offset="501" max-vertical-offset="918">
+          <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/discassist/MapsActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.92673993" vertical-offset="2025" max-vertical-offset="4488">
-          <caret line="206" column="21" selection-start-line="206" selection-start-column="21" selection-end-line="206" selection-end-column="21" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="2295" max-vertical-offset="7837">
+          <caret line="194" column="0" selection-start-line="194" selection-start-column="0" selection-end-line="194" selection-end-column="0" />
           <folding>
-            <element signature="e#1531#1539#0" expanded="true" />
-            <element signature="e#2793#2966#0" expanded="true" />
-            <element signature="e#2959#2960#0" expanded="true" />
-            <element signature="method#setUpMapIfNeeded#0;class#MapsActivity#0" expanded="false" />
-            <element signature="method#zoomToCurrentLocation#0;class#MapsActivity#0" expanded="false" />
-            <element signature="e#6399#7975#0" expanded="true" />
-            <element signature="e#7964#7965#0" expanded="true" />
-            <element signature="e#8103#8694#0" expanded="true" />
-            <element signature="e#8683#8684#0" expanded="true" />
-            <element signature="method#showProTees#0;class#MapsActivity#0" expanded="false" />
+            <element signature="e#1995#2003#0" expanded="true" />
+            <element signature="e#2119#2127#0" expanded="true" />
+            <element signature="e#2214#2222#0" expanded="true" />
+            <element signature="e#2309#2317#0" expanded="true" />
+            <element signature="e#6094#6267#0" expanded="true" />
+            <element signature="e#6260#6261#0" expanded="true" />
+            <element signature="e#9700#11369#0" expanded="true" />
+            <element signature="e#11358#11359#0" expanded="true" />
+            <element signature="e#11497#12180#0" expanded="true" />
+            <element signature="e#12169#12170#0" expanded="true" />
             <element signature="class#getCourseInformation#0;class#MapsActivity#0" expanded="false" />
-            <element signature="e#14445#14446#0" expanded="true" />
-            <element signature="e#14489#14490#0" expanded="true" />
             <element signature="method#doInBackground#0;class#getCourseInformation#0;class#MapsActivity#0" expanded="false" />
-            <element signature="e#17080#17860#0" expanded="true" />
-            <element signature="e#17839#17840#0" expanded="true" />
+            <element signature="e#19324#19340#0" expanded="true" />
+            <element signature="e#21393#22173#0" expanded="true" />
+            <element signature="e#22152#22153#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/xml/searchable.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0984556" vertical-offset="0" max-vertical-offset="518">
+          <caret line="3" column="18" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/menu/menu_maps.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0984556" vertical-offset="0" max-vertical-offset="518">
+          <caret line="3" column="38" selection-start-line="3" selection-start-column="38" selection-end-line="3" selection-end-column="38" />
+          <folding>
+            <element signature="e#279#304#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="952">
+          <caret line="29" column="46" selection-start-line="29" selection-start-column="46" selection-end-line="29" selection-end-column="46" />
+          <folding>
+            <element signature="e#891#909#0" expanded="true" />
+            <element signature="e#1055#1094#0" expanded="true" />
+            <element signature="e#1205#1230#0" expanded="true" />
+            <element signature="e#1927#1963#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.4" vertical-offset="0" max-vertical-offset="255">
+          <caret line="5" column="37" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/menu/menu_course_view.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.45945945" vertical-offset="0" max-vertical-offset="518">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding>
+            <element signature="e#230#246#0" expanded="true" />
+            <element signature="e#470#495#0" expanded="true" />
           </folding>
         </state>
       </provider>
