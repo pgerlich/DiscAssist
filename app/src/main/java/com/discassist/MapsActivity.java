@@ -72,6 +72,9 @@ public class MapsActivity extends AppCompatActivity implements GoogleMap.OnMarke
     //Whether pro tees are being shown
     boolean proTeesShown = false;
 
+    //Whether or not we've placed courses on the map
+    boolean coursesLoaded = false;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -80,14 +83,15 @@ public class MapsActivity extends AppCompatActivity implements GoogleMap.OnMarke
         setUpMapIfNeeded();
 
         // Create a Progress Dialog to inform them of the courses being loaded
-        //TODO: This really needs to be fixed.. If you change the map orientation (turn your phone sideways)
-        //TODO: It will reload all of the data.. (Because the mapsActivity is being recreated)
-        //TODO: Do we want to store it? Lock the orientation? I don't care.
         mProgressDialog = new ProgressDialog(MapsActivity.this);
-        mProgressDialog.setTitle("Getting Courses");
-        mProgressDialog.setMessage("Loading...");
-        mProgressDialog.setIndeterminate(false);
-        mProgressDialog.show();
+
+        //Prevent this from showing when you change the orientation or reload this screen
+        if ( !coursesLoaded ) {
+            mProgressDialog.setTitle("Getting Courses");
+            mProgressDialog.setMessage("Loading...");
+            mProgressDialog.setIndeterminate(false);
+            mProgressDialog.show();
+        }
 
     }
 
@@ -98,41 +102,43 @@ public class MapsActivity extends AppCompatActivity implements GoogleMap.OnMarke
         MenuInflater inflater = getMenuInflater();
         inflater.inflate(R.menu.menu_maps, menu);
 
-//        // Associate searchable configuration with the SearchView
-//        SearchManager searchManager = (SearchManager) getSystemService(Context.SEARCH_SERVICE);
-//        final SearchView searchView = (SearchView) menu.findItem(R.id.search).getActionView();
-//        searchView.setSearchableInfo(searchManager.getSearchableInfo(getComponentName()));
-//
-//        searchView.setQueryHint("Search for a bar");
-//        searchView.setIconifiedByDefault(false);
-//
-//
-//        searchView.setOnQueryTextListener(new SearchView.OnQueryTextListener() {
-//            @Override
-//            public boolean onQueryTextSubmit(String s) {
-//                for (Marker marker : markers) {
-//                    if(marker.getTitle().toLowerCase().contains(s)){
-//                        Toast.makeText(getApplicationContext(), "Found bar: " + marker.getTitle(), Toast.LENGTH_SHORT).show();
-//                        float zoom = 18;
-//                        CameraUpdate update = CameraUpdateFactory.newLatLngZoom(marker.getPosition(), zoom);
-//                        mMap.animateCamera(update);
-//                        marker.showInfoWindow();
-//                    }
-//                    else{
-//                        Toast.makeText(getApplicationContext(), "Bar not found!", Toast.LENGTH_SHORT).show();
-//                    }
-//                }
-//                searchView.clearFocus();
-//                // Zoom to bar
-//                return true;
-//            }
-//
-//            @Override
-//            public boolean onQueryTextChange(String s) {
-//                return false;
-//            }
-//
-//        });
+        // Associate searchable configuration with the SearchView
+        SearchManager searchManager = (SearchManager) getSystemService(Context.SEARCH_SERVICE);
+        final SearchView searchView = (SearchView) menu.findItem(R.id.search).getActionView();
+        searchView.setSearchableInfo(searchManager.getSearchableInfo(getComponentName()));
+
+        searchView.setQueryHint("Find a Course");
+        searchView.setIconifiedByDefault(false);
+
+
+        searchView.setOnQueryTextListener(new SearchView.OnQueryTextListener() {
+            @Override
+            public boolean onQueryTextSubmit(String s) {
+                for (Marker marker : courseMarkers) {
+
+                    //Rudimentary search option..
+                    //TODO: search by location
+                    if(marker.getTitle().toLowerCase().contains(s)){
+                        CameraUpdate update = CameraUpdateFactory.newLatLngZoom(marker.getPosition(), 18);
+                        mMap.animateCamera(update);
+                        marker.showInfoWindow();
+                    }
+                    else{
+                        Toast.makeText(getApplicationContext(), "No Courses Found...", Toast.LENGTH_SHORT).show();
+                    }
+                }
+                searchView.clearFocus();
+                // Zoom to bar
+                return true;
+            }
+
+            @Override
+            public boolean onQueryTextChange(String s) {
+                //TODO: Auto fill here based on current string
+                return false;
+            }
+
+        });
 
         return true;
     }
@@ -141,11 +147,9 @@ public class MapsActivity extends AppCompatActivity implements GoogleMap.OnMarke
     public boolean onOptionsItemSelected(MenuItem item) {
         // Handle presses on the action bar items
         switch (item.getItemId()) {
-            case R.id.action_settings:
-//                Intent i = new Intent(getApplicationContext(), MainActivity.class);
-//                String test = addDistances(jsonarray);
-//                i.putExtra("jsonArray", test);
-//                startActivity(i);
+            case R.id.settings:
+                Intent i = new Intent(getApplicationContext(), SettingsActivity.class);
+                startActivity(i);
                 return true;
             default:
                 return super.onOptionsItemSelected(item);
@@ -193,8 +197,13 @@ public class MapsActivity extends AppCompatActivity implements GoogleMap.OnMarke
 
             mMap.setMyLocationEnabled(true);
 
+            //Hybrid satellite type is dope as shit for this. We need brighter icons though!
+            mMap.setMapType(GoogleMap.MAP_TYPE_HYBRID);
+
+            //Listener to keep track of current location
             mMap.setOnMyLocationChangeListener(myLocationChangeListener);
 
+            //Zoom us in right quick ya hear
             zoomToCurrentLocation();
 
             // Check if we were successful in obtaining the map.
@@ -203,7 +212,11 @@ public class MapsActivity extends AppCompatActivity implements GoogleMap.OnMarke
             }
         }
 
-        new getCourseInformation().execute();
+        if ( !coursesLoaded ) {
+            new getCourseInformation().execute();
+            coursesLoaded = true;
+        }
+
     }
 
     /**
@@ -551,7 +564,7 @@ public class MapsActivity extends AppCompatActivity implements GoogleMap.OnMarke
                 Marker m = mMap.addMarker(new MarkerOptions()
                         .position(new LatLng(latitude, longitude))
                         .title(name)
-                        .snippet(desc)
+                        .snippet(desc) //TODO: We are going to want a custom info window to display some info like (City, State) - # of holes, rating, discs lost here, etc.
                         .icon(BitmapDescriptorFactory.fromBitmap(img)));
 
                 courseMarkers.add((m));
